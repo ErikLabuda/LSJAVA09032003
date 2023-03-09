@@ -1,7 +1,7 @@
 public class Pet {
     private String type;
     private String name;
-    private byte age;
+    private int age;
     private String gender;
 
 
@@ -14,7 +14,7 @@ public class Pet {
 
     }
 
-    public Pet(String type, String name, byte age, String gender) {
+    public Pet(String type, String name, int age, String gender) {
         this.type = type;
         this.name = name;
         this.age = age;
@@ -44,7 +44,7 @@ public class Pet {
         return name;
     }
 
-    public byte getAge() {
+    public int getAge() {
         return age;
     }
 
@@ -63,4 +63,6 @@ public class Pet {
     public void setAge(byte age) {
         this.age = age;
     }
+
+
 }

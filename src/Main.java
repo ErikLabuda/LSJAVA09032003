@@ -4,5 +4,9 @@ public class Main {
         System.out.print(basicCat);
         basicCat.setGender("male");
         System.out.print(basicCat);
+
+        Owner owner = new Owner("Jozko", 10, "Zizkov");
+        System.out.print(owner);
+        System.out.print(owner.getPets());
     }
 }
