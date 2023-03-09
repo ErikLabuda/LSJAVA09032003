@@ -35,4 +35,32 @@ public class Pet {
     public void setGender(String gender){
         this.gender = gender;
     }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public byte getAge() {
+        return age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(byte age) {
+        this.age = age;
+    }
 }
